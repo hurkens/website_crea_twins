@@ -1,0 +1,60 @@
+/* plaatje mozaiek bovenaan*/
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  top: 0;
+  left: 0;
+  background-size: 100% 100%;
+  background-position: left-top;
+}
+
+/*tekst op het plaatje*/
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*navigation bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: plum;
+}
+
+
+li a {
+  color: white;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+  color: plum;
+}
+
+li a:active {
+  background-color: lavender;
+  color: plum;
+}
+
+li {
+ float: left;
+}
+
+.right {
+  background-color:plum;
+  float:right;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+  color: white;
+}
