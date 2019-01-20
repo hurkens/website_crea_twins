@@ -1,20 +1,25 @@
+body {
+    width: 100%;
+}
+
 /* plaatje mozaiek bovenaan*/
 .container {
-  position: relative;
-  text-align: center;
-  color: white;
-  top: 0;
-  left: 0;
-  background-size: 100% 100%;
-  background-position: left-top;
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 0;
+    left: 0;
+    background-size: 100% 100%;
+    background-position: left-top;
 }
 
 /*tekst op het plaatje*/
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.container h1 {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /*navigation bar*/
@@ -27,42 +32,51 @@ nav {
 
 
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: plum;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: plum;
 }
 
 
 nav li a {
-  color: white;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 nav li a:hover {
-  background-color: white;
-  color: plum;
+    background-color: white;
+    color: plum;
 }
 
 nav li a:active {
-  background-color: lavender;
-  color: plum;
+    background-color: lavender;
+    color: plum;
 }
 
 nav li {
- float: left;
+    float: left;
 }
 
 .about {
-  background-color:plum;
-  float:left;
-  width:15%;
-  padding:15px;
-  margin-top:7px;
-  text-align:center;
-  color: white;
+    background-color:plum;
+    float:left;
+    width:20%;
+    padding:15px;
+    margin-top:7px;
+    text-align:center;
+    color: white;
+}
+
+.about img {
+    width: 100%;
+}
+
+.about h2 {
+    font-size: 25px;
+    margin: 15px 0;
 }
