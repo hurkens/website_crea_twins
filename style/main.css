@@ -18,7 +18,13 @@
 }
 
 /*navigation bar*/
-ul {
+nav {
+  width: 100%;
+  float: left;
+}
+
+
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -27,7 +33,7 @@ ul {
 }
 
 
-li a {
+nav li a {
   color: white;
   display: block;
   text-align: center;
@@ -35,24 +41,24 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+nav li a:hover {
   background-color: white;
   color: plum;
 }
 
-li a:active {
+nav li a:active {
   background-color: lavender;
   color: plum;
 }
 
-li {
+nav li {
  float: left;
 }
 
-.right {
+.about {
   background-color:plum;
-  float:right;
-  width:20%;
+  float:left;
+  width:15%;
   padding:15px;
   margin-top:7px;
   text-align:center;
